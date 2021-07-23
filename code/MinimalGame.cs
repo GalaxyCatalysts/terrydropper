@@ -39,7 +39,7 @@ namespace MinimalExample
 
 			if ( IsClient )
 			{
-				Log.Info( "My Gamemode Has Created Clientside!" );
+				Log.Info( "yay it compiled ok!" );
 			}
 		}
 
@@ -54,6 +54,9 @@ namespace MinimalExample
 			client.Pawn = player;
 
 			player.Respawn();
+			
+			Log.Info( "welcome to terry dropper!" );
+			
 		}
 	}
 
